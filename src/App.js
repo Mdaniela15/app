@@ -1,21 +1,15 @@
 import Header from "./componentes/Header"
-import Footer from "./componentes/Header"
+import Footer from "./componentes/Footer"
+import Main from "./componentes/Main"
 
-function App() {
-
-  return <div>
-
-<Header/>
-
-<main>
-  <h2>Home</h2>
-</main>
-<footer>
-  <p>Copyright & copy</p>
-</footer>
-
-
-  </div>
-
+const App = () => {
+  return (
+    <>
+      <Header />
+      <Main titulo="Home" />
+      <Footer />
+    </>
+  )
 }
+
 export default App;
