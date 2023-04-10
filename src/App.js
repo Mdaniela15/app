@@ -1,15 +1,13 @@
-import Header from "./componentes/Header"
-import Footer from "./componentes/Footer"
-import Main from "./componentes/Main"
+import Header from "./componentes/Header";
+import ItemListContainer from "./componentes/ItemListContainer";
 
-const App = () => {
+function App() {
   return (
     <>
-      <Header />
-      <Main titulo="Home" />
-      <Footer />
+    <Header />
+    <ItemListContainer greeting={"Bienvenidos"} />
     </>
-  )
+  );
 }
 
 export default App;

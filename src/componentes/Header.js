@@ -1,17 +1,12 @@
-
-
+import Navbar from "./Navbar"
 
 const Header = () => {
-  return (
-    <header className="header">
-      <h1 className="header__title">Azúinscar y Canela</h1>
-      <nav className="header__nav">
-        <a href="#" className="header__link link">Productos</a>
-        <a href="#" className="header__link link">Nosotros</a>
-        <a href="#" className="header__link link">Contacto</a>
-      </nav>
-    </header>
-  )
-}
-
+    return (
+      <header className="navbar">
+        <h1 className="navbar__title">Azúcar y Canela </h1>
+        <Navbar />
+      </header>
+    );
+  }
+  
 export default Header
