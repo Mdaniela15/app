@@ -1,4 +1,6 @@
 
+
+
 body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
@@ -14,17 +16,27 @@ code {
 }
 
 .navbar {
-  background: rgb(21, 106, 171)  ;
+  background: rgb(11, 153, 201);
 }
 
 .navbar h1{
   margin-left: 20px;
   font-size: 30px;
-  color: rgb(137, 194, 216);
+  color: aliceblue;
 }
 
 .navbar .navbar__list a{
   margin: 10px;
   text-decoration: none;
-  color: rgb(255, 255, 255);
+  color: aliceblue;
+}
+
+
+.product-card-container {
+  display: flex; 
+  justify-content: space-around;
+}
+
+button{
+  padding: 1px;
 }
