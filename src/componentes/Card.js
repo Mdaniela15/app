@@ -16,10 +16,10 @@ export default function Card({ product }) {
                         <div className="mx-2">{counter}</div>
                         <button onClick={increment} type="button" className="btn btn-primary">+</button>
                     </div>
-                    <button className="btn btn-primary">Añadir a carrito</button>
+                    <button className="btn btn-primary">Añadir a carrito de compras</button>
                 </div>
-
             </div>
         </div>
+        
     );
 }
