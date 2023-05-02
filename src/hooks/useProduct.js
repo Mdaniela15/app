@@ -20,22 +20,20 @@ const PRODUCTS = [
         description:"Unidad",
         price: 100,
         imgUrl: "https://images.unsplash.com/photo-1495147466023-ac5c588e2e94?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8OHx8dGFydGFzfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60"
-    }
-    
+    },
 
 ]
 
-const useProducts = () => {
+const useProducts = (id) => {
 
     const [isLoading, setIsLoading] = useState(true);
     const [products, setProducts] = useState();
 
     useEffect(() => {
         const getProducts = async () => {
-
             try {
                 const resp = await new Promise((resolve) => {
-                    setTimeout(() => resolve(PRODUCTS), 1000);
+                    setTimeout(() => resolve(PRODUCTS.find(p => p.id === parseInt(id))), 1000);
                 });
                 setProducts(resp);
             } catch (error) {
