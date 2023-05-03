@@ -20,7 +20,28 @@ const PRODUCTS = [
         description:"Unidad",
         price: 100,
         imgUrl: "https://images.unsplash.com/photo-1495147466023-ac5c588e2e94?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8OHx8dGFydGFzfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60"
-    }
+    },
+    {
+        id: 4,
+        name: "Chocolates",
+        description:"Unidad",
+        price: 100,
+        imgUrl: "https://images.unsplash.com/photo-1481391319762-47dff72954d9?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8OXx8Y2hvY29sYXRlc3xlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60"
+    },
+    {
+        id: 5,
+        name: "Tortas",
+        description:"Unidad",
+        price: 100,
+        imgUrl: "https://images.unsplash.com/photo-1514056052883-d017fddd0426?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTB8fHRvcnRhc3xlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60"
+    },
+    {
+        id: 6,
+        name: "Panes",
+        description:"Unidad",
+        price: 100,
+        imgUrl: "https://images.unsplash.com/photo-1633439708933-0c7f5ec0af96?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mjl8fHBhbmVzfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60"
+    },
     
 
 ]
